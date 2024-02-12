@@ -18,6 +18,8 @@ namespace FiveDaysTrainings
     {
     public void reverse_string()
     {
+            Console.WriteLine("\nReverse String");
+
             string str = "HELLOE WORLD";
             string rev = string.Empty;
 
@@ -26,6 +28,9 @@ namespace FiveDaysTrainings
                 rev += str[a];
             }
             Console.WriteLine(rev);
-    }
+
+
+            Console.WriteLine("--------------------------------");
+        }
     }
 }

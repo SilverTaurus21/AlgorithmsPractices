@@ -18,6 +18,8 @@ namespace FiveDaysTrainings
     {
     public void fizz_buzz()
     {
+            Console.WriteLine("\nFIZZ BUZZ");       
+
             int item = 89;
             
             for(int a = item; a <= 100; a++)
@@ -39,6 +41,8 @@ namespace FiveDaysTrainings
                     Console.WriteLine(item);
                 }
             }
-    }
+
+            Console.WriteLine("--------------------------------");
+        }
     }
 }
