@@ -10,11 +10,13 @@ using FiveDaysTrainings;
             ReverseString rvs = new ReverseString();
             FizzBuzz fizzBuzz = new FizzBuzz();
             MaxSubArray msa = new MaxSubArray();
+            CalculateFactorial cf = new CalculateFactorial();
 
         rva.reverse_array();
         rvs.reverse_string();
         fizzBuzz.fizz_buzz();
         msa.max_sub_array();
+        cf.prime_factorial();
 
     }
 
