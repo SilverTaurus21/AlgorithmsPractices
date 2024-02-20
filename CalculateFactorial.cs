@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+ calculates the factorial of the input number. The factorial of a number  
+ is the product of all positive integers from 1 to n
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
